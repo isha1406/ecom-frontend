@@ -1,0 +1,41 @@
+.sidebar{
+    background-color: cadetblue;
+    flex:2;
+    min-height: 100vh;
+    padding-top: 40px;
+    //border-right:1px solid rgb(218,148,148);
+
+    .top{
+        height:50px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+    }
+
+    .logo{
+        font-size:25px;
+        font-weight: bold;
+        color:rgb(47, 37, 37);
+    }
+
+    .hr{
+        height: 0px;
+        border:2px solid rgb(230,227,227);
+ 
+    }
+
+    .center{
+        padding-left:0px;
+    }
+
+    .title{
+        
+        font:size 3px;
+        font-weight: bold;
+        margin-top:10px;
+        margin-bottom:10px;
+        text-align:center;
+        padding:10px 10px;
+    }
+}

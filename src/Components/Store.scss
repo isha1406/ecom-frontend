@@ -1,0 +1,17 @@
+.store{ 
+    background-color:cadetblue;
+    display: flex;
+    
+    .storeContainer{
+        flex: 6;
+        margin-top: 10px;
+        display: flex;
+    }
+} 
+
+.pagination{
+    background-color: cadetblue;
+    align-items: center;
+    padding-left: 800px;
+    padding-top: 15px;
+}
